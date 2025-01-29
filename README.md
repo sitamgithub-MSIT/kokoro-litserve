@@ -1,8 +1,8 @@
 # Kokoro LitServe
 
-[![Open In Studio](https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg)](https://lightning.ai/sitammeur/studios/kokoro-litserve)
+[![Open In Studio](https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg)](https://lightning.ai/sitammeur/studios/deploy-kokoro-tts-model)
 
-[Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) is a high-performing, compact (82 million parameters) text-to-speech model released under the Apache 2.0 license. It supports American and British English, boasts multiple voice packs, and achieves top rankings despite limited training data. Its efficiency makes it ideal for various applications. This project shows how to create a self-hosted, private API that deploys the Kokoro [text-to-speech model](https://huggingface.co/hexgrad/Kokoro-82M) with LitServe, an easy-to-use, flexible serving engine for AI models built on FastAPI.
+[Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) is a high-performing, compact (82 million parameters) text-to-speech model released under the Apache 2.0 license. It supports a variety of languages, as well as multiple voice packs, and ranks highly despite limited training data. Its efficiency makes it ideal for various applications. This project shows how to create a self-hosted, private API that deploys the Kokoro [text-to-speech model](https://huggingface.co/hexgrad/Kokoro-82M) with LitServe, an easy-to-use, flexible serving engine for AI models built on FastAPI.
 
 ## Project Structure
 
