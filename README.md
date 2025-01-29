@@ -36,7 +36,7 @@ Now, you can see the model's output based on the input request. The model will g
 
 ## Usage
 
-The project can be used to serve the Kokoro text-to-speech model using LitServe. The model showcases how small-scale models can excel in specific areas. With its permissive licensing, user-friendliness, and versatile voice packs, it is an invaluable resource for TTS applications, spanning from audiobooks to real-time assistants.
+The project can be used to serve the Kokoro text-to-speech model using LitServe. The model showcases how small-scale models can excel in specific areas. Its permissive licensing, user-friendliness, and versatile voice packs make it an invaluable resource for TTS applications, spanning from audiobooks to real-time assistants.
 
 ## Contributing
 
@@ -48,6 +48,6 @@ This project is licensed under the [Apache-2.0 License](LICENSE).
 
 ## Contact
 
-If you have any questions or suggestions about the project, feel free to contact me on my GitHub profile.
+If you have any questions or suggestions about the project, please contact me on my GitHub profile.
 
 Happy coding! 🚀
