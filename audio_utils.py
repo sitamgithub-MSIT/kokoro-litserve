@@ -3,12 +3,13 @@ import soundfile as sf
 import numpy as np
 
 
-def combine_audio_files(folder):
+def combine_audio_files(folder, index):
     """
     Combine all audio files from the folder and return the concatenated audio data.
 
     Args:
-        folder (str): Path to the folder containing the .wav files.
+        - folder (str): Path to the folder containing the .wav files.
+        - index (int): The index of the last file to be concatenated.
 
     Returns: None
     """
@@ -26,7 +27,7 @@ def combine_audio_files(folder):
     audio_data = []
     samplerate = None
 
-    for wav_file in wav_files:
+    for wav_file in wav_files[:index+1]:
         data, samplerate = sf.read(wav_file)
         audio_data.append(data)
 
