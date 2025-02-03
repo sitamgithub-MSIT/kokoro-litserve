@@ -30,7 +30,7 @@ class KokoroAPI(ls.LitAPI):
         """
         Convert the request payload to model input.
         """
-        # Get the inputs from request payload
+        # Extract the inputs from request payload
         language_code = request.get("language_code", "a")
         text = request.get("text", "")
         voice = request.get("voice", "af_heart")
