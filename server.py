@@ -32,7 +32,7 @@ class KokoroAPI(ls.LitAPI):
         """
         # Extract the inputs from request payload
         language_code = request.get("language_code", "a")
-        text = request.get("text", "")
+        text = request.get("text")
         voice = request.get("voice", "af_heart")
 
         # Initialize or update pipeline if language changes
